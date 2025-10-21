@@ -1,0 +1,50 @@
+body { 
+    background-color: aqua;
+}
+
+h4 { 
+    font-style: italic;
+    text-align: right;
+}
+
+h1 { 
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+
+}
+
+h3 a { 
+    color: white;
+}
+
+h3 a:hover { 
+    color: red;
+}
+
+h3 a:link { 
+    text-decoration: underline;
+}
+
+p { 
+     text-align: center;
+}
+
+#atas { 
+    color: orange;
+}
+
+#bawah { 
+    line-height: 1.6;
+}
+
+#bawah a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#bawah a:link { 
+    text-decoration: none;
+    font-weight: bold;
+}
