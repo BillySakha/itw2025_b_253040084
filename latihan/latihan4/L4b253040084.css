@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* style */
+body { 
+    font-family: 'Roboto', serif;
+    line-height: 1.6;
+    background-color: #1e293b;
+    background-repeat: repeat;
+    color: #e2e8f0;
+}
+
+/* wadah utama */
+.container { 
+    width: 800px;
+    margin: auto;
+    background-color: #1e293b;
+    border: 1px solid #1E90FF;
+}
+
+/* header website */
+.header { 
+    background-color: #1E90FF;
+    padding: 20px;
+}
+
+.header .judul { 
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.header ul { 
+    text-align: center;
+}
+
+.header ul li { 
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header a { 
+    text-decoration: none;
+    color: #e2e8f0;
+    padding: 3px;
+}
+
+.header a:hover { 
+    color: #38bdf8;
+    border-bottom: 2px solid #38bdf8;
+}
+
+/* gambar hero/banner */
+.hero { 
+    height: 380px;
+    background-image: linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.4)), url("img/neural.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid  #31719b;
+    border-bottom: 4px solid #1E90FF;
+}
+
+/* konten artikel */
+.content { 
+    padding: 20px;
+}
+
+.content h2 { 
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: #38bdf8;
+    font-size: 28px;
+}
+
+.content .penulis { 
+    text-align: center;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.content .penulis a { 
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.content .bold { 
+    font-weight: bold;
+}
+
+.content ol { 
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.content span { 
+    font-weight: bold;
+}
+
+.content img { 
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border: 2px solid #1E90FF;
+    
+}
+
+/* footer */
+.footer { 
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .copy { 
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
