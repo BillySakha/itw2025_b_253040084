@@ -1,0 +1,8 @@
+.jumbotron {
+  padding-top: 2rem;
+  background: linear-gradient(to bottom, rgb(15, 108, 55) 0%, rgb(69, 162, 35) 50%, green 100%);
+}
+
+#projects {
+  background-color: rgb(69, 162, 35);
+}
